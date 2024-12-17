@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  ACRNAME: "hseungh" # 변경
+  ACRNAME: "hseungh2" # 변경
   RG: "seunghyun-rg" # 변경
   AKSNAME: "hong-aks" # 변경
   APPNAME: "flask"
