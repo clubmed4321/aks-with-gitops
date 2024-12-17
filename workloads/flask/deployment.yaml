@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-deployment
-        image: hseungh.azurecr.io/flask:unknown
+        image: hseungh.azurecr.io/flask:unknown # 변경
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 2000
